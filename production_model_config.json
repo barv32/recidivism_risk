@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "ridge": {
+    "C": 0.0003,
+    "penalty": "l2",
+    "max_iter": 1000
+  },
+  "random_forest": {
+    "n_estimators": 400,
+    "max_depth": 16,
+    "min_samples_leaf": 8,
+    "max_features": "sqrt",
+    "criterion": "gini"
+  },
+  "catboost": {
+    "iterations": 100,
+    "learning_rate": 0.02,
+    "depth": 8,
+    "l2_leaf_reg": 12,
+    "loss_function": "Logloss"
+  }
+}
